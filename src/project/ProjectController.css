@@ -1,0 +1,94 @@
+.project-controller {
+  padding: 20px;
+}
+
+.segmented-control {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.video-carousels {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.carousel-section h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.thumbnail-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.thumbnail-item {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.thumbnail-item:hover {
+  transform: scale(1.05);
+}
+
+.thumbnail-img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.video-title {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.video-player {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.custom-button {
+  color: #1d4ed8;
+  border-color: #1d4ed8;
+  background-color: #fff;
+  border-radius: 9999px;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.625rem 1.25rem;
+  margin: 0.375rem;
+}
+
+.custom-button:hover {
+  color: #fff;
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.custom-button:focus {
+  box-shadow: 0 0 0 4px rgba(29, 78, 216, 0.3);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.diy-section h3,
+.quiz-section h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
